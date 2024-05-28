@@ -1,0 +1,26 @@
+Enunciados
+
+a) Se crea una tabla llamada "MARCAS" con las columnas "IdMarca", "NombreMarca" y "NombreCiudad" en donde "IdMarca" es la clave primaria. "IdMarca", "NombreMarca" y "NombreCiudad" no deben permitir valores nulos.
+
+b) Se crea una tabla llamada "COCHES" con las columnas "codcoche", "nombre" y "modelo" en donde "codcoche" es la clave primaria. "codcoche" y "nombre" no deben permitir valores nulos.
+
+c) Se crea una tabla llamada "MARCO" con las columnas "IdMarca" y "codcoche". La combinacion del campo "cifm" y "codcoche" forman la clave primaria de la tabla "MARCO". Se crean las claves foraneas que referencian las tablas "MARCAS" (cifm) y "COCHE" (codcoche). "IdMarca" y "codcoche" no deben permitir valores nulos.
+
+d) Se debe insertar los siguientes valores en la tabla "MARCAS":
+
+	(1, 'vw', 'Mar del Plata')
+	(2, 'renault', 'Rosario')
+	(3, 'fiat', 'Cordoba')
+	(4, 'ford', 'Neuquen')
+
+e) Se debe realizar una consulta que devuelva todas las columnas y filas de la tabla "MARCAS".
+
+f) Se debe realizar una consulta que devuelva las columnas "nombre" y "ciudad" de la tabla "MARCAS".
+
+g) Se debe seleccionar las columnas "nombre" y "ciudad" de la tabla "MARCAS" donde el valor de la columna "IdMarca" sea igual a 2.
+
+h) Se debe seleccionar las columnas "NombreMarca" y "ciudad" de la tabla "marca" donde el valor de la columna "ciudad" sea igual a 'Neuquen'.
+
+i) Se debe seleccionar las columnas "nombre" y "ciudad" de la tabla "marcas" donde el valor de la columna "ciudad" comience con la letra 'S'.
+
+j) Se debe actualizar la tabla "marcas" estableciendo el valor de la columna "ciudad" a 'Nuequen' donde el valor actual sea 'Jujuy'.
